@@ -1,6 +1,8 @@
 import { useState } from 'react'
-import './login.css'
+import  ButtonBrown  from '../Components/ButtonBrown';
+import './Login.css'
 import { Link } from 'react-router-dom'
+
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -30,9 +32,8 @@ function Login() {
             className="password"
             name="password"
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-          <button type="submit" className="button-primary">Log in</button>
+            onChange={(e) => setPassword(e.target.value)}/>
+          <ButtonBrown name="Log in" />
         </form>
         <Link to="/signup" className="sign-up-button">Create an account?</Link>
       </div>

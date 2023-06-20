@@ -2,25 +2,25 @@
   display: flex;
   width: 100vw;
   height: 100vh;
-  justify-content: start;
+  justify-content: end;
   background-color: white;
   color: black;
 }
 
-.sign-up-container {
+.login-container {
   margin: auto auto;
   width: 500px;
   padding: 10px;
 }
 
-.sign-up-title {
+.login-title {
   margin: 10px;
   margin-top: 0;
   color: #594A37;
   opacity: 0.66;
 }
 
-.first-name, .last-name, .email, .password, .confirm-password {
+.email, .password {
   font-size: 15px;
   height: 35px;
   margin: 10px 0;
@@ -32,7 +32,7 @@
   border-radius: 8px;
 }
 
-.sign-up-form {
+.login-form {
   display: flex;
   flex-direction: column;
   text-align: start;
@@ -41,18 +41,6 @@
 
 label {
   font-weight: bold;
-}
-
-.button-primary {
-  font-size: 18px;
-  background-color: #594A37;
-  margin-top: 25px;
-  padding: 16px 0;
-  transition: .7s ease-in-out;
-}
-
-.button-primary:hover {
-  opacity: 0.9;
 }
 
 .sign-up-button {
@@ -64,9 +52,9 @@ label {
   color: rgba(0,0,0,0.6);
 }
 
-.sign-up-img {
+.login-img {
   height: 100%;
   width: 40%;
-  background-image: url('https://images.unsplash.com/photo-1658752292290-48f675c977d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80');
+  background-image: url('https://images.unsplash.com/photo-1558642084-fd07fae5282e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=436&q=80');
   background-size: cover;
 }
