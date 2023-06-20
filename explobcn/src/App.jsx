@@ -1,16 +1,16 @@
-import Login from './pages/login/Login.jsx'
 import './App.css'
-import Homepage from './Pages/WelcomePage'
+import WelcomePage from './Pages/WelcomePage'
+import Login from './Pages/Login'
+import { Route, Routes } from 'react-router-dom';
 function App() {
 
   return (
-    <>
-
-//       <Homepage />
-
-//       <Login/>
-
-    </>
+    <div>
+       <Routes>
+        <Route path="/" element={<WelcomePage />} />
+        <Route path="/log-in" element={<Login />} />
+       </Routes>
+    </div>
   )
 }
 

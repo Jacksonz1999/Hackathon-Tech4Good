@@ -67,7 +67,10 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
+  #btn-log {
     background-color: transparent;
+  }
+  #btn-log::after {
+    border-color: none;
   }
 }

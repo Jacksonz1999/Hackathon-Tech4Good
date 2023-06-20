@@ -43,18 +43,6 @@ label {
   font-weight: bold;
 }
 
-.button-primary {
-  font-size: 18px;
-  background-color: #594A37;
-  margin-top: 25px;
-  padding: 16px 0;
-  transition: .7s ease-in-out;
-}
-
-.button-primary:hover {
-  opacity: 0.9;
-}
-
 .sign-up-button {
   color: rgba(0,0,0,0.4);
   transition: .3s ease-in-out;

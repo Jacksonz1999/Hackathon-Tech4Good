@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import './login.css'
+import  ButtonBrown  from '../Components/ButtonBrown';
+import './Login.css'
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -30,7 +31,7 @@ function Login() {
             name="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}/>
-          <button type="submit" className="button-primary">Log in</button>
+          <ButtonBrown name="Log in" />
         </form>
         <a href="#" className="sign-up-button">Create an account?</a>
       </div>
