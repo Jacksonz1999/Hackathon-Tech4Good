@@ -1,6 +1,6 @@
 import './WelcomePage.css';
 
-const Homepage = () => {
+const WelcomePage = () => {
   return (
     <div className="welcome-page flex p-4">
       <div className="flex flex-col sm:w-full md:w-1/2 lg:w-1/2 align-center justify-center px-4">
@@ -20,4 +20,4 @@ const Homepage = () => {
     </div>
   );
 }
-export default Homepage;
+export default WelcomePage;
