@@ -2,6 +2,7 @@ import { Card } from "@mui/material";
 import RestaurantIcon from '@mui/icons-material/Restaurant';
 import LuggageIcon from '@mui/icons-material/Luggage';
 import CelebrationIcon from '@mui/icons-material/Celebration';
+import Map from '../Map/Map'
 
 import "./Main.css";
 const Main = () => {
@@ -12,10 +13,8 @@ const Main = () => {
      </div>
       <div className="main__container">
         <div className="main__container__image">
-        <img
-          className="map_sagrada"
-          src="https://sagradafamilia.org/o/sf-theme/images/mapa_SF_CMG_Icono.png"
-        />
+        {/* Here we import the Map component  */}
+        <Map/>
         <div className="button_main">
       <button ><RestaurantIcon/> Restaurant</button>
       <button><LuggageIcon/> Accomodations</button>
