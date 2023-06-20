@@ -25,7 +25,7 @@
 }
 .main_title{
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 
@@ -35,4 +35,64 @@
     align-items: center;
     justify-content: space-around;
 
+}
+/* Media queries for mobile devices */
+@media (max-width: 391px){
+    .map_sagrada{
+        width: 95%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .main__container{
+        flex-direction: column;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+@media (max-width: 768px) {
+  
+    .main__container__card {
+      width: 80%;
+    }
+  
+    .card_title h2 {
+      font-size: 0.8rem;
+    }
+  
+    .card_title h5 {
+      font-size: 0.7rem;
+    }
+  
+    .card_description {
+      font-size: 0.8rem;
+    }
+  
+    .button_main button {
+      font-size: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .main__container__card {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .card_title h2 {
+      font-size: 0.9rem;
+    }
+  
+    .card_title h5 {
+      font-size: 0.6rem;
+    }
+  
+    .card_description {
+      font-size: 0.7rem;
+    }
+  
+    .button_main button {
+      font-size: 10px;
+    }
+  }
 }
