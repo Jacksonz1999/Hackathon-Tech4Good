@@ -3,9 +3,17 @@ import RestaurantIcon from '@mui/icons-material/Restaurant';
 import LuggageIcon from '@mui/icons-material/Luggage';
 import CelebrationIcon from '@mui/icons-material/Celebration';
 import Map from '../Map/Map'
-
+import { getItinerary } from "../../services/itinerary.service.js";
 import "./Main.css";
+
 const Main = () => {
+
+getItinerary('649211ce6d4ede812d50eb84')
+.then(response => {
+  console.log('REPSONE', response)
+}) 
+.catch(err => console.log(err)) 
+
   return (
     <>
     <div className="main_title">
