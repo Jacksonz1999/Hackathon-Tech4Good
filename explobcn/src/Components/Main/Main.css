@@ -18,6 +18,7 @@
 .main__container__card{
     margin: 30px;
     margin-top: 20px;
+    border-radius: 25px;
 }
 .card_description{
     margin-left: 20px;
@@ -58,48 +59,60 @@
     }
 
 @media (max-width: 768px) {
-  
+
     .main__container__card {
       width: 80%;
     }
-  
+
     .card_title h2 {
       font-size: 0.8rem;
     }
-  
+
     .card_title h5 {
       font-size: 0.7rem;
     }
-  
+
     .card_description {
       font-size: 0.8rem;
     }
-  
+
     .button_main button {
       font-size: 10px;
     }
   }
-  
+
   @media (max-width: 480px) {
     .main__container__card {
       width: 100%;
       margin: 10px 0;
     }
-  
+
     .card_title h2 {
       font-size: 0.9rem;
     }
-  
+
     .card_title h5 {
       font-size: 0.6rem;
     }
-  
+
     .card_description {
       font-size: 0.7rem;
     }
-  
+
     .button_main button {
       font-size: 10px;
     }
   }
+}
+.welcomebutton {
+  font-size: 14px;
+  background-color: #594A37;
+  margin-top: 25px;
+  padding: 16px 24px;
+  transition: .7s ease-in-out;
+  color: white;
+}
+
+.welcomebutton:hover {
+  opacity: 0.9;
 }

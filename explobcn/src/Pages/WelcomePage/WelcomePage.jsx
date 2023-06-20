@@ -13,7 +13,7 @@ const WelcomePage = () => {
             <button className="border-none text-white mr-2" id ="btn-log">Log In</button>
           </Link>
           <Link to="/homepage">
-            <ButtonBrown name="Expore destinations" className = "w-full" />
+            <ButtonBrown name="Explore destinations" className = "w-full" />
           </Link>
         </span>
       </div>
