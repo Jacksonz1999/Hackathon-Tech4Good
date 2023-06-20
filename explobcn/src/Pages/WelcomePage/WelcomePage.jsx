@@ -12,8 +12,8 @@ const WelcomePage = () => {
           <Link to="/log-in">
             <button className="border-none text-white mr-2" id ="btn-log">Log In</button>
           </Link>
-          <Link to="/signup">
-            <ButtonBrown name="Expore destinations" className = "w-full" />
+          <Link to="/homepage">
+            <ButtonBrown name="Explore destinations" className = "w-full" />
           </Link>
         </span>
       </div>

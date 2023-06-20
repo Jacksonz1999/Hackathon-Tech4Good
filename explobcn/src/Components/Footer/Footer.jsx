@@ -15,9 +15,9 @@ const Footer = () => {
           <div className="footer__container__links">
             <img className="image_footer" src={Image} alt="logo" />
             <div className="footer__button">
-              <button>About us</button>
-              <button>FAQ</button>
-              <button>Cookies</button>
+              <button  className = "welcomebutton">About us</button>
+              <button  className = "welcomebutton" >FAQ</button>
+              <button  className = "welcomebutton">Cookies</button>
             </div>
             <div className="footer__social">
                 <FacebookIcon />
