@@ -18,9 +18,9 @@ const Main = () => {
           src="https://sagradafamilia.org/o/sf-theme/images/mapa_SF_CMG_Icono.png"
         />
         <div className="button_main">
-      <Button><RestaurantIcon/> Restaurant</Button>
-      <Button><LuggageIcon/> Accomodations</Button>
-      <Button><CelebrationIcon/> Popular</Button>
+      <button ><RestaurantIcon/> Restaurant</button>
+      <button><LuggageIcon/> Accomodations</button>
+      <button><CelebrationIcon/> Popular</button>
         </div>
         </div>
         <div className = "card__content">

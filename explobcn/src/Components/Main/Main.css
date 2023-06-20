@@ -36,11 +36,15 @@
     justify-content: space-around;
 
 }
+.main_categories{
+    margin: 15px;
+}
 /* Media queries for mobile devices */
 @media (max-width: 391px){
     .map_sagrada{
-        width: 95%;
-        height: 50%;
+        margin: 15px,15px,15px;
+        width: 100%;
+        height: 60%;
         display: flex;
         justify-content: center;
     }
@@ -48,6 +52,9 @@
         flex-direction: column;
         margin-right: 0px;
         margin-left: 0px;
+    }
+    .main_title{
+        margin-left: 20px;
     }
 
 @media (max-width: 768px) {

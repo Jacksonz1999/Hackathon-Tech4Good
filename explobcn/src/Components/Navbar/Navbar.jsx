@@ -11,6 +11,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import AccountCircle from '@mui/icons-material/AccountCircle';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import Image from  "../../assets/ExploBCN.png"
+import { Link } from "react-router-dom";
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -42,7 +43,6 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   color: 'inherit',
   '& .MuiInputBase-input': {
     padding: theme.spacing(1, 1, 1, 0),
-    // vertical padding + font size from searchIcon
     paddingLeft: `calc(1em + ${theme.spacing(4)})`,
     transition: theme.transitions.create('width'),
     width: '100%',
@@ -135,7 +135,7 @@ export default function PrimarySearchAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed" style={{backgroundColor: "#C7B9A8"}}>
         <Toolbar>
-        <img src={Image} alt="logo" style={{width: "100px", height: "70px"}}/>
+        <Link to="/"><img src={Image} alt="logo" style={{width: "100px", height: "70px"}}/></Link>
           <Search>
             <SearchIconWrapper>
               <SearchIcon />
