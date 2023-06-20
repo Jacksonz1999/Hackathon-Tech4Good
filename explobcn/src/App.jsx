@@ -1,8 +1,7 @@
+import Login from './Pages/Login/Login.jsx'
 import './App.css'
-import '../Pages/Login'
 
 function App() {
-
 
   return (
     <>
