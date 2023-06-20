@@ -2,25 +2,25 @@
   display: flex;
   width: 100vw;
   height: 100vh;
-  justify-content: end;
+  justify-content: start;
   background-color: white;
   color: black;
 }
 
-.login-container {
+.sign-up-container {
   margin: auto auto;
   width: 500px;
   padding: 10px;
 }
 
-.login-title {
+.sign-up-title {
   margin: 10px;
   margin-top: 0;
   color: #594A37;
   opacity: 0.66;
 }
 
-.email, .password {
+.first-name, .last-name, .email, .password, .confirm-password {
   font-size: 15px;
   height: 35px;
   margin: 10px 0;
@@ -32,7 +32,7 @@
   border-radius: 8px;
 }
 
-.login-form {
+.sign-up-form {
   display: flex;
   flex-direction: column;
   text-align: start;
@@ -64,9 +64,9 @@ label {
   color: rgba(0,0,0,0.6);
 }
 
-.login-img {
+.sign-up-img {
   height: 100%;
   width: 40%;
-  background-image: url('https://images.unsplash.com/photo-1558642084-fd07fae5282e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=436&q=80');
+  background-image: url('https://images.unsplash.com/photo-1658752292290-48f675c977d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80');
   background-size: cover;
 }
