@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import  ButtonBrown  from '../Components/ButtonBrown';
 import './Login.css'
+import { Link } from 'react-router-dom'
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -34,7 +35,7 @@ function Login() {
             onChange={(e) => setPassword(e.target.value)}/>
           <ButtonBrown name="Log in" />
         </form>
-        <a href="#" className="sign-up-button">Create an account?</a>
+        <Link to="/signup" className="sign-up-button">Create an account?</Link>
       </div>
       <div className="login-img"></div>
     </div>

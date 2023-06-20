@@ -4,5 +4,6 @@ import SignUp from './SignUp/SignUp';
 
 export {
   WelcomePage,
-  Login
+  Login,
+  SignUp
 };
