@@ -19,17 +19,19 @@ function Login() {
           <label htmlFor="email">Email</label>
           <input
             type="email"
-            id="email"
+            className="email"
             name="email"
             value={email}
-            onChange={(e) => setEmail(e.target.value)}/>
+            onChange={(e) => setEmail(e.target.value)}
+          />
           <label htmlFor="password">Password</label>
           <input
             type="password"
-            id="password"
+            className="password"
             name="password"
             value={password}
-            onChange={(e) => setPassword(e.target.value)}/>
+            onChange={(e) => setPassword(e.target.value)}
+          />
           <button type="submit" className="button-primary">Log in</button>
         </form>
         <a href="#" className="sign-up-button">Create an account?</a>
