@@ -1,0 +1,18 @@
+.image_footer{
+    width: 150px;
+    height: 100px;
+
+}
+
+
+.footer__container__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+a{
+    color: black;
+}
