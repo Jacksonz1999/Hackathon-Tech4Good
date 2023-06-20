@@ -1,3 +1,7 @@
+
+import Homepage from "./Pages/Homepage/Homepage"
+import Errorpage from "./Pages/Errorpage/Errorpage"
+import { Routes,Route } from "react-router-dom"
 // import Login from './pages/login/Login.jsx'
 // import SignUp from './pages/signup/SignUp'
 
@@ -7,6 +11,10 @@ function App() {
 
   return (
     <>
+    <Routes>
+      <Route path="/" element={<Homepage/>} />
+      <Route path ="*" element={<Errorpage/>} />
+    </Routes>
 
       {/* <Homepage /> */}
 
