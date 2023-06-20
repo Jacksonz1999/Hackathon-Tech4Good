@@ -20,7 +20,7 @@
   opacity: 0.66;
 }
 
-#email, #password {
+.email, .password {
   font-size: 15px;
   height: 35px;
   margin: 10px 0;

@@ -1,6 +1,6 @@
-import WelcomePage from './WelcomePage';
-import Login from './Login';
-
+import WelcomePage from './WelcomePage/WelcomePage';
+import Login from './Login/Login';
+import SignUp from './SignUp/SignUp';
 
 export {
   WelcomePage,
