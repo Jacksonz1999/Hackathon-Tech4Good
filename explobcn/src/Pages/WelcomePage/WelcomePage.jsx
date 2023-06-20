@@ -1,7 +1,6 @@
 import './WelcomePage.css';
 import { Link } from 'react-router-dom';
-import  ButtonBrown  from '../Components/ButtonBrown';
-import '../Components/ButtonBrown.css'
+import  ButtonBrown  from '../../Components/ButtonBrown';
 
 const WelcomePage = () => {
   return (
