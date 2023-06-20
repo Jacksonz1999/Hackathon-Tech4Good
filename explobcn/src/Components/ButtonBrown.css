@@ -4,6 +4,7 @@
   margin-top: 25px;
   padding: 16px 24px;
   transition: .7s ease-in-out;
+  color: white;
 }
 
 .button-primary:hover {
