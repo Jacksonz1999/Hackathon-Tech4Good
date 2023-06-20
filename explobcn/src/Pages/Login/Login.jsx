@@ -33,7 +33,9 @@ function Login() {
             name="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}/>
-          <ButtonBrown name="Log in" />
+            <Link to ="/homepage">
+              <ButtonBrown name="Log in" />
+            </Link>
         </form>
         <Link to="/signup" className="sign-up-button">Create an account?</Link>
       </div>
